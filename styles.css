@@ -83,7 +83,7 @@ header nav ul li {
 
 #introduction button {
     color: #fff;
-    background-color: purple;
+    background-color: rgb(213, 80, 213);
     border: none;
     padding: 10px 20px;
     border-radius: 20px;
@@ -104,8 +104,15 @@ header nav ul li {
 
 #pros h2 {
     font-size: 2em;
-    color: #fff;
+    color: #d4c6c6;
     margin-bottom: 20px;
+    font-weight: 50;
+}
+
+#pros h2 span {
+    color: rgb(213, 80, 213);
+    font-weight: bold;
+
 }
 
 .pros-list {
@@ -140,6 +147,6 @@ header nav ul li {
 .pro p {
     font-size: 12px;
     font-style: italic;
-    color: #fff;
+    color: #d4c6c6;
 }
 
