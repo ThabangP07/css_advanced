@@ -62,6 +62,33 @@ header nav ul li {
     line-height: 1.5;
 }
 
+#introduction h1 {
+    font-size: 4em;
+    color: #fff
+}
 
+#introduction div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px auto;
+}
+
+#introduction div span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#introduction button {
+    color: #fff;
+    background-color: purple;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bolder;
+}
 
 
