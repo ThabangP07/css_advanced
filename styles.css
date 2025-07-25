@@ -39,8 +39,7 @@ header nav ul li {
 
 /* MAIN CONTENT STYLES */
 
-#home {
-    margin-top: 70px; 
+#home { 
     text-align: center;
     background-color: lightgray;
     height: 100vh;
