@@ -183,3 +183,41 @@ header nav ul li {
     font-size: 2.5em;
     color: #000;
 }
+
+#profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.profile .reviewer {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile .reviewer img {
+    width: 50px;
+    height: 50px;
+}
+
+.profile .reviewer h4, .rating div, .profile-footing p{
+    color:  rgb(213, 80, 213);
+}
+
+.profile-footing {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+}
