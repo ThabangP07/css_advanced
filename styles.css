@@ -60,12 +60,12 @@ header nav ul li {
     justify-content: space-around;
     width: 50%;
     height: auto;
-    margin: 300px auto 50px;
+    margin: 200px auto 50px;
     line-height: 1.5;
 }
 
 #introduction h1 {
-    font-size: 4em;
+    font-size: 3em;
     color: #fff;
 }
 
@@ -114,5 +114,33 @@ header nav ul li {
     justify-content: center;
     gap: 20px;
     flex-wrap: nowrap;
+    margin: 20px;
+}
+
+
+.pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.pro img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.pro h3 {
+    font-size: 1em;
+    color: #fff;
+}
+
+.pro p {
+    font-size: 12px;
+    font-style: italic;
+    color: #fff;
 }
 
