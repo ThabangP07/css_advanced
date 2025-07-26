@@ -42,7 +42,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 100px;
+    margin: 0 50px;
 }
 header nav ul {
     list-style: none;
@@ -56,7 +56,9 @@ header nav ul li a {
 header nav ul li {
     display: inline;
     margin: 0 15px;
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 /* MAIN CONTENT STYLES */
@@ -153,7 +155,6 @@ header nav ul li {
 
 #presenter {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -185,7 +186,6 @@ header nav ul li {
 
 #profiles {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -205,6 +205,7 @@ header nav ul li {
 .profile .reviewer {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 10px 0;
 }
 
@@ -219,8 +220,7 @@ header nav ul li {
 }
 
 .profile-footing {
-    display: flex;
-    flex-direction: row; 
+    display: flex; 
     justify-content: space-between;
 }
 
@@ -241,7 +241,6 @@ header nav ul li {
 
 #options {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
