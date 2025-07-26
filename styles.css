@@ -239,3 +239,14 @@ header nav ul li {
     background-color: rgb(2, 2, 48);
     padding: 20px;
 }
+
+#options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 90%;
+    margin: 50px auto;
+}
