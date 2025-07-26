@@ -272,3 +272,33 @@ header nav ul li {
 .blocks .question, .blocks .answer {
     margin: 50px auto;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(2, 2, 48);
+    height: 200px;
+
+}
+
+footer section .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 50px 20px;
+    width: 80%;
+}
+
+footer section div .icons {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 50px;
+}
+
+footer section p {
+    color: rgb(92, 92, 92);
+    text-align: center;
+    margin-bottom: 50px;
+}
