@@ -15,7 +15,17 @@ h2 {
 h2 span {
     color: rgb(213, 80, 213);
     font-weight: bold;
+}
 
+button {
+    color: #fff;
+    background-color: rgb(213, 80, 213);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 /* HEADER STYLES */
@@ -92,17 +102,6 @@ header nav ul li {
     color: #fff;
     font-weight: bold;
     font-size: 14px;
-}
-
-#introduction button {
-    color: #fff;
-    background-color: rgb(213, 80, 213);
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bolder;
 }
 
 /* Pros */
@@ -249,4 +248,9 @@ header nav ul li {
     gap: 20px;
     width: 90%;
     margin: 50px auto;
+}
+
+#options div h3, #options div p {
+    color: #fff;
+    margin: 20px;
 }
