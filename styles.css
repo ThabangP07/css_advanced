@@ -176,7 +176,6 @@ header nav ul li {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 70vh;
 }
 
 #tutorials h2 {
@@ -197,6 +196,7 @@ header nav ul li {
     display: flex;
     flex-direction: column;
     width: 20%;
+    margin-bottom: 50px;
 }
 
 .profile h3 {
@@ -227,4 +227,15 @@ header nav ul li {
 
 .rating {
     display: flex;
+}
+
+/* MEMBERSHIPS */
+
+#membership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 2, 48);
+    padding: 20px;
 }
